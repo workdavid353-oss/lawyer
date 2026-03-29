@@ -1,7 +1,12 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import '../globals.css';
+
+export function generateStaticParams() {
+  return [{ locale: 'he' }, { locale: 'en' }];
+}
 
 export const metadata: Metadata = {
   title: 'ארז ושות׳ — עורכי דין | Erez & Partners Law Firm',
@@ -15,6 +20,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  setRequestLocale(locale);
   const messages = await getMessages();
   const dir = locale === 'he' ? 'rtl' : 'ltr';
 

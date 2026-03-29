@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import Navbar from '@/components/sections/Navbar';
 import Hero from '@/components/sections/Hero';
 import Practices from '@/components/sections/Practices';
@@ -8,7 +9,12 @@ import Testimonials from '@/components/sections/Testimonials';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/sections/Footer';
 
-export default function HomePage() {
+export function generateStaticParams() {
+  return [{ locale: 'he' }, { locale: 'en' }];
+}
+
+export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   return (
     <>
       <Navbar />
