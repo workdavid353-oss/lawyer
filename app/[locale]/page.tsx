@@ -13,7 +13,8 @@ export function generateStaticParams() {
   return [{ locale: 'he' }, { locale: 'en' }];
 }
 
-export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
   return (
     <>
