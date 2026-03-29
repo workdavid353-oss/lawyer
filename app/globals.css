@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Heebo:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #1B2B4B;
+  --navy-light: #243558;
+  --gold: #B8962E;
+  --gold-light: #C9A84C;
+  --gold-pale: #F5EDD5;
+  --gold-bg: #FDFAF3;
+  --white: #FFFFFF;
+  --off-white: #F9F8F5;
+  --gray-100: #F2F0EB;
+  --gray-200: #E5E2DA;
+  --gray-400: #A8A49A;
+  --gray-600: #6B6860;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* RTL / LTR direction is set per locale on <html> */
+[dir='rtl'] body {
+  font-family: 'Heebo', sans-serif;
+}
+[dir='ltr'] body {
+  font-family: 'Heebo', sans-serif;
+}

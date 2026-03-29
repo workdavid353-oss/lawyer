@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "practices": "Practice Areas",
+    "about": "About",
+    "team": "Team",
+    "precedents": "Case Law",
+    "contact": "Contact",
+    "cta": "Free Consultation",
+    "lang": "עב"
+  },
+  "hero": {
+    "eyebrow": "Law Firm — Tel Aviv",
+    "title": "Erez",
+    "titleAccent": "& Partners",
+    "subtitle": "Legal excellence, real results",
+    "desc": "We guide individuals and businesses through the most complex legal challenges, with full commitment to your interests.",
+    "ctaPrimary": "Schedule Consultation",
+    "ctaSecondary": "Practice Areas",
+    "stat1Num": "20+",
+    "stat1Label": "Years of Experience",
+    "stat2Num": "500+",
+    "stat2Label": "Successful Cases",
+    "stat3Num": "98%",
+    "stat3Label": "Client Satisfaction"
+  },
+  "practices": {
+    "eyebrow": "Practice Areas",
+    "title": "Broad Expertise, Precise Representation",
+    "desc": "We offer comprehensive legal representation across a wide range of fields, with a personal and professional approach.",
+    "items": [
+      { "num": "01", "icon": "⚖", "title": "Employment Law", "desc": "Representing employees and employers in labor disputes, terminations, and collective agreements." },
+      { "num": "02", "icon": "🏛", "title": "Commercial Law", "desc": "Supporting commercial transactions, mergers, acquisitions, and business contracts." },
+      { "num": "03", "icon": "🏠", "title": "Real Estate", "desc": "Real estate transactions, contractor and developer support, and property taxation." },
+      { "num": "04", "icon": "👤", "title": "Family Law", "desc": "Divorce, prenuptial agreements, child custody, and inheritance law." },
+      { "num": "05", "icon": "🛡", "title": "Litigation", "desc": "Court representation at all levels and management of complex legal proceedings." },
+      { "num": "06", "icon": "📋", "title": "Corporate Law", "desc": "Company formation, corporate governance, and founders' agreements." }
+    ]
+  },
+  "about": {
+    "eyebrow": "About the Firm",
+    "title": "Committed to Justice, Loyal to Clients",
+    "desc": "Erez & Partners was founded on the belief that quality legal representation should be accessible, professional, and tailored to each client.",
+    "values": [
+      { "num": "01", "title": "Uncompromising Professionalism", "text": "Every case receives the full attention and legal expertise built over many years." },
+      { "num": "02", "title": "Full Transparency", "text": "Clients are updated at every stage and know exactly what is happening with their case." },
+      { "num": "03", "title": "Proven Results", "text": "A long list of landmark rulings and successful transactions speaks for itself." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Our Team",
+    "title": "The Experts By Your Side",
+    "desc": "Every attorney at our firm is a specialist in their field, with experience in some of Israel's most complex cases.",
+    "members": [
+      { "initials": "E", "name": "Adv. Erez", "role": "Founding Partner", "bio": "20 years of experience in commercial litigation and corporate law. Former Deputy District Attorney." },
+      { "initials": "M", "name": "Adv. Maccabi", "role": "Senior Partner", "bio": "Expert in employment law and commercial law. Guest lecturer at Tel Aviv University." },
+      { "initials": "D", "name": "Adv. Dana", "role": "Attorney", "bio": "Specializes in family law and real estate, with an empathetic and strategic approach." },
+      { "initials": "Y", "name": "Adv. Yuval", "role": "Attorney", "bio": "Specializes in corporate and startup law. Has guided dozens of investment deals worth millions." }
+    ]
+  },
+  "precedents": {
+    "eyebrow": "Case Law",
+    "title": "Precedents That Shaped the Law",
+    "desc": "A selection of the firm's most significant rulings over the years.",
+    "items": [
+      { "year": "2023", "title": "CA 34521/23 — Wrongful Termination Damages", "desc": "A landmark ruling establishing enhanced damages violating the Equal Opportunity Law", "tag": "Employment" },
+      { "year": "2022", "title": "CA 1892/22 — Asset Division in Partnership Dispute", "desc": "The District Court adopted the firm's position on valuing a company in a business dispute", "tag": "Commercial" },
+      { "year": "2021", "title": "FC 8821/21 — Real Estate Division in Divorce", "desc": "Innovative ruling on dividing an apartment registered before marriage", "tag": "Family" },
+      { "year": "2020", "title": "CA 5501/20 — Real Estate Deal Cancellation", "desc": "Achieved cancellation of a land deal based on misrepresentation, with full damages for the client", "tag": "Real Estate" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Clients",
+    "title": "What They Say About Us",
+    "items": [
+      { "text": "The firm guided me through an incredibly difficult divorce process. Their professional and human approach made me feel truly supported.", "name": "R. Mizrahi", "role": "Client — Family Law", "initials": "RM" },
+      { "text": "As an early-stage startup, I needed a lawyer who understands the business world. Adv. Yuval was exactly that — fast, sharp, and practical.", "name": "D. Cohen", "role": "Startup Founder", "initials": "DC" },
+      { "text": "I was in a business dispute with a partner that dragged on for years. Within six months, we reached a settlement that exceeded my expectations.", "name": "A. Levy", "role": "Business Owner", "initials": "AL" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact Us",
+    "title": "We'd Love to Hear From You",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Smith",
+      "phone": "Phone",
+      "phonePlaceholder": "050-0000000",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Area of Inquiry",
+      "subjectDefault": "Select a field",
+      "message": "Details",
+      "messagePlaceholder": "Tell us briefly about your legal matter...",
+      "submit": "Send Message",
+      "subjects": ["Employment Law", "Commercial Law", "Real Estate", "Family Law", "Litigation", "Corporate Law"]
+    },
+    "info": {
+      "eyebrow": "Contact Details",
+      "address": { "label": "Address", "value": "42 Herzl St., Floor 8\nCity Tower, Tel Aviv" },
+      "phone": { "label": "Phone", "value": "03-0000000" },
+      "whatsapp": { "label": "WhatsApp", "value": "050-0000000" },
+      "email": { "label": "Email", "value": "office@erez-law.co.il" },
+      "hours": { "label": "Office Hours", "value": "Sun–Thu  09:00–18:00\nFri          09:00–13:00" }
+    }
+  },
+  "footer": {
+    "copy": "© 2025 Erez & Partners Law Firm",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "accessibility": "Accessibility"
+  }
+}
